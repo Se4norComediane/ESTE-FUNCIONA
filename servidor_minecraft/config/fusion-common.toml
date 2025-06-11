@@ -25,27 +25,27 @@
 
 [Armor]
 	#false disables recipes
-	EnableSteelArmor = true
-	#false disables recipes
 	EnableBronzeArmor = true
 	#false disables recipes
 	EnableSinisiteArmor = true
 	#false disables recipes
 	EnableThyriumArmor = true
+	#false disables recipes
+	EnableSteelArmor = true
 
 [Bows]
 	#false disables recipes
 	EnableFusionBows = true
 
 ["Simple Fusion Recycling"]
-	#Enable Simple Fusion Recycling recipes for vanilla metals?
-	enableVanillaRecycling = true
-	#Enable Simple Fusion Recycling recipes for Simple Ores?
-	enableSimpleOresRecycling = true
-	#Enable Simple Fusion Recycling recipes for Netherrocks?
-	enableNetherrocksRecycling = false
 	#Enable Simple Fusion Recycling recipes for Fusion?
 	enableFusionRecycling = true
+	#Enable Simple Fusion Recycling recipes for Simple Ores?
+	enableSimpleOresRecycling = true
 	#Enable Simple Fusion Recycling recipes for Diamonds/Onyx?
 	enableGemRecycling = true
+	#Enable Simple Fusion Recycling recipes for vanilla metals?
+	enableVanillaRecycling = true
+	#Enable Simple Fusion Recycling recipes for Netherrocks?
+	enableNetherrocksRecycling = false
 
