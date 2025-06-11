@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2025-06-11 22:09:49 +0000"
+    },
+    "done": true
+  },
   "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_smoking_upgrade_from_auto_smelting_upgrade": {
     "criteria": {
       "has_auto_smelting_upgrade": "2025-06-10 02:59:03 +0000"
@@ -96,6 +102,12 @@
   "sophisticatedbackpacks:recipes/sophisticatedbackpacks/smoking_upgrade_from_smelting_upgrade": {
     "criteria": {
       "has_smelting_upgrade": "2025-06-10 02:59:03 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_easter_egg": {
+    "criteria": {
+      "coded_trigger": "2025-06-11 22:09:49 +0000"
     },
     "done": true
   },

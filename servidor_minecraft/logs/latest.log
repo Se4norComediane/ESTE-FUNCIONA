@@ -3299,3 +3299,16 @@ com.google.gson.JsonSyntaxException: Missing ops, expected to find a JsonArray
 [11Jun2025 21:56:48.684] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Chunky] Task started in minecraft:overworld for the square region centered at 0, 0 with radius 500.
 [11Jun2025 21:56:48.689] [Chunky-minecraft:overworld Thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Chunky] Task finished for minecraft:overworld. Processed: 4225 chunks (100.00%), Total time: 0:00:00
 [11Jun2025 22:01:06.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Set the time to 1000
+[11Jun2025 22:05:20.881] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Server] EL MUNDOOOOOOOOOOOOOOOOOO
+[11Jun2025 22:05:39.281] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[11Jun2025 22:05:39.282] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /SAY I HATE NIIGERS AND I LOVE SO MUCH ADOLF HITLER<--[HERE]
+[11Jun2025 22:06:30.531] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Server] I HATE NIGGER BUT I LOVE SO MUCH ADOLF HITLER
+[11Jun2025 22:09:49.161] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@364eb392
+[11Jun2025 22:09:49.197] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Se4norComediante[/100.119.9.72:51295] logged in with entity id 363 at (120.5, 63.0, 239.5)
+[11Jun2025 22:09:49.243] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante joined the game
+[11Jun2025 22:09:49.484] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante has made the advancement [Easter Egg Searcher]
+[11Jun2025 22:09:49.510] [Server thread/INFO] [Waila/]: Syncing config to Se4norComediante (3fff8650-d897-3866-9c95-e06e18153e8f)
+[11Jun2025 22:11:24.643] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3613ms or 72 ticks behind
+[11Jun2025 22:13:40.479] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante was slain by Zombie
+[11Jun2025 22:13:40.495] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante has made the advancement [Your First Grave]
+[11Jun2025 22:13:40.505] [Server thread/INFO] [tombstone/]: The player Se4norComediante has successfully been saved
