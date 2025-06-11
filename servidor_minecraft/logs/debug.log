@@ -5197,3 +5197,40 @@ com.google.gson.JsonSyntaxException: Missing ops, expected to find a JsonArray
 [11Jun2025 22:13:40.491] [Server thread/DEBUG] [tombstone/]: A new grave of the player Se4norComediante was created at position [x:62, y:63, z:188, dim:minecraft:overworld]
 [11Jun2025 22:13:40.495] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante has made the advancement [Your First Grave]
 [11Jun2025 22:13:40.505] [Server thread/INFO] [tombstone/]: The player Se4norComediante has successfully been saved
+[11Jun2025 22:14:28.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante was slain by Zombie
+[11Jun2025 22:14:28.898] [Server thread/DEBUG] [tombstone/]: A new grave of the player Se4norComediante was created at position [x:62, y:64, z:170, dim:minecraft:overworld]
+[11Jun2025 22:14:28.904] [Server thread/INFO] [tombstone/]: The player Se4norComediante has successfully been saved
+[11Jun2025 22:15:04.802] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante has completed the challenge [Cannibal]
+[11Jun2025 22:15:04.804] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante has made the advancement [Knowledge of Death]
+[11Jun2025 22:15:04.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante has made the advancement [Easter Food]
+[11Jun2025 22:15:11.000] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[11Jun2025 22:15:11.030] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[11Jun2025 22:15:30.351] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante was shot by Skeleton
+[11Jun2025 22:15:30.352] [Server thread/DEBUG] [tombstone/]: A new grave of the player Se4norComediante was created at position [x:56, y:64, z:168, dim:minecraft:overworld]
+[11Jun2025 22:15:30.356] [Server thread/INFO] [tombstone/]: The player Se4norComediante has successfully been saved
+[11Jun2025 22:16:01.743] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante has reached the goal [Here They Come]
+[11Jun2025 22:19:37.443] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante was slain by Zombie
+[11Jun2025 22:19:37.444] [Server thread/DEBUG] [tombstone/]: A new grave of the player Se4norComediante was created at position [x:-24, y:64, z:158, dim:minecraft:overworld]
+[11Jun2025 22:19:37.453] [Server thread/INFO] [tombstone/]: The player Se4norComediante has successfully been saved
+[11Jun2025 22:20:10.891] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[11Jun2025 22:20:10.906] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[11Jun2025 22:22:42.938] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Se4norComediante lost connection: Disconnected
+[11Jun2025 22:22:42.938] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante left the game
+[11Jun2025 22:23:25.531] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[11Jun2025 22:23:25.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[11Jun2025 22:23:25.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[11Jun2025 22:23:25.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[11Jun2025 22:23:25.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11Jun2025 22:23:26.913] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11Jun2025 22:23:26.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11Jun2025 22:23:26.915] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11Jun2025 22:23:26.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11Jun2025 22:23:26.920] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11Jun2025 22:23:26.921] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[11Jun2025 22:23:26.933] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[11Jun2025 22:23:26.956] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11Jun2025 22:23:27.004] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11Jun2025 22:23:27.004] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11Jun2025 22:23:27.007] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : ./world/serverconfig
+[11Jun2025 22:23:27.007] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[11Jun2025 22:23:27.010] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file tombstone-server.toml changed, sending notifies
