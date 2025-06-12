@@ -185,6 +185,12 @@
     },
     "done": true
   },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2025-06-12 02:57:32 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/stripped_oak_table": {
     "criteria": {
       "has_planks": "2025-06-11 22:15:57 +0000"
@@ -535,11 +541,18 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:forest": "2025-06-12 02:56:57 +0000",
+      "minecraft:mountains": "2025-06-12 02:58:49 +0000",
+      "minecraft:taiga": "2025-06-12 02:57:27 +0000",
       "minecraft:jungle": "2025-06-10 02:59:03 +0000",
       "minecraft:jungle_hills": "2025-06-11 22:13:04 +0000",
+      "minecraft:warm_ocean": "2025-06-12 02:56:13 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-06-12 03:00:31 +0000",
       "minecraft:beach": "2025-06-11 22:11:41 +0000",
       "minecraft:river": "2025-06-11 22:15:44 +0000",
-      "minecraft:lukewarm_ocean": "2025-06-11 22:15:45 +0000"
+      "minecraft:lukewarm_ocean": "2025-06-11 22:15:45 +0000",
+      "minecraft:wooded_hills": "2025-06-12 02:57:03 +0000",
+      "minecraft:plains": "2025-06-12 02:58:48 +0000"
     },
     "done": false
   },
@@ -780,6 +793,12 @@
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2025-06-10 02:59:03 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_mushroom_village": {
+    "criteria": {
+      "location0": "2025-06-12 03:00:44 +0000"
     },
     "done": true
   },
