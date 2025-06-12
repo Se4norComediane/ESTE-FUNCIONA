@@ -1,84 +1,84 @@
-[12Jun2025 03:21:23.182] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[12Jun2025 03:21:23.185] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.27 by Ubuntu
-[12Jun2025 03:21:23.633] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[12Jun2025 03:21:23.723] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/ESTE-FUNCIONA/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[12Jun2025 03:21:24.635] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[12Jun2025 03:21:24.792] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[12Jun2025 03:21:24.812] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[12Jun2025 03:21:24.832] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[12Jun2025 03:21:24.951] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 13:0 token recognition error at: '`'
-[12Jun2025 03:21:26.737] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[12Jun2025 03:21:33.490] [main/WARN] [mixin/]: Error loading class: net/minecraft/entity/IChargeableMob (java.lang.ClassNotFoundException: null)
-[12Jun2025 03:21:33.492] [main/WARN] [mixin/]: Error loading class: net/minecraft/entity/IChargeableMob (java.lang.ClassNotFoundException: null)
-[12Jun2025 03:21:33.493] [main/WARN] [mixin/]: Error loading class: net/minecraft/entity/IChargeableMob (java.lang.ClassNotFoundException: null)
-[12Jun2025 03:21:33.511] [main/WARN] [mixin/]: Error loading class: net/minecraft/entity/IChargeableMob (java.lang.ClassNotFoundException: null)
-[12Jun2025 03:21:33.520] [main/WARN] [mixin/]: Error loading class: net/minecraft/entity/IChargeableMob (java.lang.ClassNotFoundException: null)
-[12Jun2025 03:21:33.577] [main/WARN] [mixin/]: @Final field field_82223_h:[I in epicfight.mixins.json:MixinWitherBoss should be final
-[12Jun2025 03:21:33.577] [main/WARN] [mixin/]: @Final field field_82224_i:[I in epicfight.mixins.json:MixinWitherBoss should be final
-[12Jun2025 03:21:40.721] [modloading-worker-0/INFO] [mod.alexndr.simplecorelib.SimpleCoreLib/]: Hello from SimpleCoreLib!
-[12Jun2025 03:21:44.145] [modloading-worker-1/INFO] [mod.alexndr.fusion.Fusion/]: Hello from Fusion!
-[12Jun2025 03:21:44.252] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
-[12Jun2025 03:21:44.253] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
-[12Jun2025 03:21:46.692] [modloading-worker-1/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading Bountiful listeners..
-[12Jun2025 03:21:46.773] [modloading-worker-1/INFO] [STDOUT/]: [ejektaflex.bountiful.data.json.JsonSerializers:register:14]: BOREG registering json ser
-[12Jun2025 03:21:51.198] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:werewolf, use EntityAttributeCreationEvent instead.
-[12Jun2025 03:21:51.199] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:netherfish, use EntityAttributeCreationEvent instead.
-[12Jun2025 03:21:51.199] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:poisonous_libelle, use EntityAttributeCreationEvent instead.
-[12Jun2025 03:21:51.200] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:vengeance_spirit, use EntityAttributeCreationEvent instead.
-[12Jun2025 03:21:51.200] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:controlled_zombie, use EntityAttributeCreationEvent instead.
-[12Jun2025 03:21:51.266] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `evilcraft` for name `blood`, expected `cyclopscore`. This could be a intended override, but in most cases indicates a broken mod.
-[12Jun2025 03:21:51.268] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `evilcraft` for name `blood_flowing`, expected `cyclopscore`. This could be a intended override, but in most cases indicates a broken mod.
-[12Jun2025 03:21:51.272] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `evilcraft` for name `poison`, expected `cyclopscore`. This could be a intended override, but in most cases indicates a broken mod.
-[12Jun2025 03:21:51.272] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `evilcraft` for name `poison_flowing`, expected `cyclopscore`. This could be a intended override, but in most cases indicates a broken mod.
-[12Jun2025 03:21:51.609] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
-[12Jun2025 03:21:51.902] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
-[12Jun2025 03:21:51.945] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.945] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.946] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.946] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.946] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.947] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.947] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.948] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[12Jun2025 03:21:51.956] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.957] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.957] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.958] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.959] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.959] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.960] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.961] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.962] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.963] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.964] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[12Jun2025 03:21:51.968] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.990] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.991] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[12Jun2025 03:21:51.992] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.993] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[12Jun2025 03:21:51.993] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[12Jun2025 03:21:51.994] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.995] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.995] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.996] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:51.996] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:52.001] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:52.002] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:52.020] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:52.023] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:52.025] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:52.026] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:21:52.319] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for goblintraders:goblin_trader, use EntityAttributeCreationEvent instead.
-[12Jun2025 03:21:52.325] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for goblintraders:vein_goblin_trader, use EntityAttributeCreationEvent instead.
-[12Jun2025 03:21:52.538] [modloading-worker-1/INFO] [evilcraft/]: Registered packet handler.
-[12Jun2025 03:21:52.541] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
-[12Jun2025 03:21:53.222] [modloading-worker-1/INFO] [fusion Mod Event Subscriber/]: Simple Ores is not loaded.
-[12Jun2025 03:21:53.264] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
-[12Jun2025 03:21:54.109] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.13.0 Target: null
-[12Jun2025 03:21:54.110] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplecorelib] Starting version check at https://raw.githubusercontent.com/Sinhika/SimpleCoreLib/1.16/update.json
-[12Jun2025 03:21:54.193] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplecorelib] Found status: AHEAD Current: 1.16.5-2.0.8.22 Target: null
-[12Jun2025 03:21:54.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[12Jun2025 03:21:54.476] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[12Jun2025 19:13:01.565] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[12Jun2025 19:13:01.570] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.27 by Ubuntu
+[12Jun2025 19:13:02.272] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[12Jun2025 19:13:02.404] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/ESTE-FUNCIONA/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[12Jun2025 19:13:03.520] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[12Jun2025 19:13:03.734] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[12Jun2025 19:13:03.762] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[12Jun2025 19:13:03.783] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[12Jun2025 19:13:03.918] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 13:0 token recognition error at: '`'
+[12Jun2025 19:13:05.747] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[12Jun2025 19:13:13.056] [main/WARN] [mixin/]: Error loading class: net/minecraft/entity/IChargeableMob (java.lang.ClassNotFoundException: null)
+[12Jun2025 19:13:13.057] [main/WARN] [mixin/]: Error loading class: net/minecraft/entity/IChargeableMob (java.lang.ClassNotFoundException: null)
+[12Jun2025 19:13:13.058] [main/WARN] [mixin/]: Error loading class: net/minecraft/entity/IChargeableMob (java.lang.ClassNotFoundException: null)
+[12Jun2025 19:13:13.075] [main/WARN] [mixin/]: Error loading class: net/minecraft/entity/IChargeableMob (java.lang.ClassNotFoundException: null)
+[12Jun2025 19:13:13.083] [main/WARN] [mixin/]: Error loading class: net/minecraft/entity/IChargeableMob (java.lang.ClassNotFoundException: null)
+[12Jun2025 19:13:13.137] [main/WARN] [mixin/]: @Final field field_82223_h:[I in epicfight.mixins.json:MixinWitherBoss should be final
+[12Jun2025 19:13:13.138] [main/WARN] [mixin/]: @Final field field_82224_i:[I in epicfight.mixins.json:MixinWitherBoss should be final
+[12Jun2025 19:13:20.853] [modloading-worker-0/INFO] [mod.alexndr.simplecorelib.SimpleCoreLib/]: Hello from SimpleCoreLib!
+[12Jun2025 19:13:24.019] [modloading-worker-0/INFO] [mod.alexndr.fusion.Fusion/]: Hello from Fusion!
+[12Jun2025 19:13:24.125] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[12Jun2025 19:13:24.125] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[12Jun2025 19:13:26.113] [modloading-worker-0/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading Bountiful listeners..
+[12Jun2025 19:13:26.185] [modloading-worker-0/INFO] [STDOUT/]: [ejektaflex.bountiful.data.json.JsonSerializers:register:14]: BOREG registering json ser
+[12Jun2025 19:13:30.512] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:werewolf, use EntityAttributeCreationEvent instead.
+[12Jun2025 19:13:30.514] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:netherfish, use EntityAttributeCreationEvent instead.
+[12Jun2025 19:13:30.515] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:poisonous_libelle, use EntityAttributeCreationEvent instead.
+[12Jun2025 19:13:30.515] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:vengeance_spirit, use EntityAttributeCreationEvent instead.
+[12Jun2025 19:13:30.517] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for evilcraft:controlled_zombie, use EntityAttributeCreationEvent instead.
+[12Jun2025 19:13:30.594] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `evilcraft` for name `blood`, expected `cyclopscore`. This could be a intended override, but in most cases indicates a broken mod.
+[12Jun2025 19:13:30.595] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `evilcraft` for name `blood_flowing`, expected `cyclopscore`. This could be a intended override, but in most cases indicates a broken mod.
+[12Jun2025 19:13:30.596] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `evilcraft` for name `poison`, expected `cyclopscore`. This could be a intended override, but in most cases indicates a broken mod.
+[12Jun2025 19:13:30.597] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `evilcraft` for name `poison_flowing`, expected `cyclopscore`. This could be a intended override, but in most cases indicates a broken mod.
+[12Jun2025 19:13:30.798] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[12Jun2025 19:13:31.068] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.069] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.079] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.080] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.080] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.080] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.080] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.082] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[12Jun2025 19:13:31.090] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.095] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.096] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.098] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.098] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.098] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.098] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.099] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.100] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.100] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.101] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[12Jun2025 19:13:31.105] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.121] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.122] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[12Jun2025 19:13:31.122] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.122] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[12Jun2025 19:13:31.124] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[12Jun2025 19:13:31.125] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.125] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.125] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.125] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.125] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.130] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.130] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.143] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.147] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.147] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.147] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:13:31.151] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[12Jun2025 19:13:31.485] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for goblintraders:goblin_trader, use EntityAttributeCreationEvent instead.
+[12Jun2025 19:13:31.487] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for goblintraders:vein_goblin_trader, use EntityAttributeCreationEvent instead.
+[12Jun2025 19:13:31.623] [modloading-worker-1/INFO] [evilcraft/]: Registered packet handler.
+[12Jun2025 19:13:31.623] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[12Jun2025 19:13:32.067] [modloading-worker-1/INFO] [fusion Mod Event Subscriber/]: Simple Ores is not loaded.
+[12Jun2025 19:13:32.127] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[12Jun2025 19:13:32.774] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.13.0 Target: null
+[12Jun2025 19:13:32.780] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplecorelib] Starting version check at https://raw.githubusercontent.com/Sinhika/SimpleCoreLib/1.16/update.json
+[12Jun2025 19:13:32.802] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplecorelib] Found status: AHEAD Current: 1.16.5-2.0.8.22 Target: null
+[12Jun2025 19:13:32.804] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[12Jun2025 19:13:33.057] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.IOException: Server returned HTTP response code: 403 for URL: https://mrcrayfish.com/modupdatejson?id=goblintraders
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
@@ -102,10 +102,10 @@ Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL:
 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334) ~[?:?]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?]
 	... 3 more
-[12Jun2025 03:21:54.488] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
-[12Jun2025 03:21:54.504] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: BETA Current: 1.1.17 Target: null
-[12Jun2025 03:21:54.506] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
-[12Jun2025 03:21:54.617] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[12Jun2025 19:13:33.066] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[12Jun2025 19:13:33.086] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: BETA Current: 1.1.17 Target: null
+[12Jun2025 19:13:33.087] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[12Jun2025 19:13:33.196] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.IOException: Server returned HTTP response code: 403 for URL: https://mrcrayfish.com/modupdatejson?id=configured
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
@@ -129,11 +129,10 @@ Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL:
 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334) ~[?:?]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?]
 	... 3 more
-[12Jun2025 03:21:54.627] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[12Jun2025 03:21:54.643] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 6.9.6 Target: null
-[12Jun2025 03:21:54.643] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obfuscate] Starting version check at https://mrcrayfish.com/modupdatejson?id=obfuscate
-[12Jun2025 03:21:54.695] [modloading-worker-0/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[12Jun2025 03:21:54.739] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[12Jun2025 19:13:33.205] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[12Jun2025 19:13:33.218] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 6.9.6 Target: null
+[12Jun2025 19:13:33.219] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obfuscate] Starting version check at https://mrcrayfish.com/modupdatejson?id=obfuscate
+[12Jun2025 19:13:33.335] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.IOException: Server returned HTTP response code: 403 for URL: https://mrcrayfish.com/modupdatejson?id=obfuscate
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
@@ -157,11 +156,12 @@ Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL:
 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334) ~[?:?]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?]
 	... 3 more
-[12Jun2025 03:21:54.749] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vehicle] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/vehicle/update.json
-[12Jun2025 03:21:54.761] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vehicle] Found status: BETA Current: 0.45.2 Target: null
-[12Jun2025 03:21:54.763] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
-[12Jun2025 03:21:54.823] [modloading-worker-0/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[12Jun2025 03:21:54.875] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[12Jun2025 19:13:33.340] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vehicle] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/vehicle/update.json
+[12Jun2025 19:13:33.358] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vehicle] Found status: BETA Current: 0.45.2 Target: null
+[12Jun2025 19:13:33.362] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[12Jun2025 19:13:33.395] [modloading-worker-0/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[12Jun2025 19:13:33.459] [modloading-worker-0/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[12Jun2025 19:13:33.462] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.IOException: Server returned HTTP response code: 403 for URL: https://mrcrayfish.com/modupdatejson?id=cfm
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
@@ -185,56 +185,56 @@ Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL:
 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334) ~[?:?]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:145) ~[forge:?]
 	... 3 more
-[12Jun2025 03:21:54.879] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fusion] Starting version check at https://raw.githubusercontent.com/Sinhika/Fusion/1.16/update.json
-[12Jun2025 03:21:54.941] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fusion] Found status: AHEAD Current: 1.16.5-2.7.4.5 Target: null
-[12Jun2025 03:21:54.945] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[12Jun2025 03:21:55.004] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: CustomNPC Permissions available:
-[12Jun2025 03:21:55.020] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.blocks
-[12Jun2025 03:21:55.024] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.villager
-[12Jun2025 03:21:55.025] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.bank
-[12Jun2025 03:21:55.028] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.dialog
-[12Jun2025 03:21:55.028] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.faction
-[12Jun2025 03:21:55.029] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.linked
-[12Jun2025 03:21:55.029] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.naturalspawn
-[12Jun2025 03:21:55.029] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.playerdata
-[12Jun2025 03:21:55.029] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.quest
-[12Jun2025 03:21:55.030] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.recipe
-[12Jun2025 03:21:55.032] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.transport
-[12Jun2025 03:21:55.033] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.advanced
-[12Jun2025 03:21:55.034] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.ai
-[12Jun2025 03:21:55.039] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.clone
-[12Jun2025 03:21:55.040] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.create
-[12Jun2025 03:21:55.040] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.delete
-[12Jun2025 03:21:55.042] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.display
-[12Jun2025 03:21:55.042] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.freeze
-[12Jun2025 03:21:55.043] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.gui
-[12Jun2025 03:21:55.043] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.inventory
-[12Jun2025 03:21:55.044] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.reset
-[12Jun2025 03:21:55.044] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.stats
-[12Jun2025 03:21:55.046] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.scenes
-[12Jun2025 03:21:55.047] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.soulstone.all
-[12Jun2025 03:21:55.051] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.create
-[12Jun2025 03:21:55.051] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.mob
-[12Jun2025 03:21:55.051] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.mounter
-[12Jun2025 03:21:55.051] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.nbtbook
-[12Jun2025 03:21:55.052] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.pather
-[12Jun2025 03:21:55.054] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.scripter
-[12Jun2025 03:21:55.252] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
-[12Jun2025 03:21:56.519] [modloading-worker-0/INFO] [Waila/]: Registered plugin at snownee.jade.JadePlugin
-[12Jun2025 03:21:56.520] [modloading-worker-0/INFO] [Waila/]: Registered plugin at snownee.jade.JadeClientPlugin
-[12Jun2025 03:21:56.529] [modloading-worker-0/INFO] [Waila/]: Registered plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
-[12Jun2025 03:21:56.535] [modloading-worker-0/INFO] [Waila/]: Registered plugin at ovh.corail.tombstone.compatibility.IntegrationWaila
-[12Jun2025 03:22:06.389] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12Jun2025 03:22:07.478] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [noppes, mark, clear] and [noppes, mark, entities] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12Jun2025 03:22:07.482] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [noppes, mark, entities] and [noppes, mark, clear] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12Jun2025 03:22:07.486] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12Jun2025 03:22:07.491] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12Jun2025 03:22:07.495] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12Jun2025 03:22:07.501] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12Jun2025 03:22:07.505] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12Jun2025 03:22:07.542] [main/INFO] [ejektaflex.bountiful.BountifulMod/]: Bountiful adding resource listener..
-[12Jun2025 03:22:07.545] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.42-universal.jar, mowziesmobs-1.5.27.jar, supermartijn642configlib-1.1.8-forge-mc1.16.jar, sophisticatedbackpacks-1.16.5-3.15.16.669.jar, Jade-1.16.4-2.8.3.jar, architectury-1.32.68.jar, minecraft-comes-alive-7.3.23+1.16.5-universal.jar, SimpleCoreLib-1.16.5-2.0.8.22.jar, Chunky-1.2.123.jar, supermartijn642corelib-1.1.17a-forge-mc1.16.jar, Fusion-1.16.5-2.7.4.5.jar, jei-1.16.5-7.8.0.1009.jar, goblintraders-1.7.3-1.16.5.jar, Bountiful-1.16.4-3.3.1.jar, curios-forge-1.16.5-4.1.0.0.jar, geckolib-forge-1.16.5-3.0.104.jar, EpicFight-16.6.4.jar, CyclopsCore-1.16.5-1.13.0.jar, EvilCraft-1.16.5-1.1.17.jar, configured-1.5.4-1.16.5.jar, tombstone-1.16.5-6.9.6.jar, obfuscate-0.6.3-1.16.5.jar, vehicle-mod-0.45.2-1.16.3.jar, CustomNPCs-1.16.5.20220515.jar, cfm-7.0.0pre22-1.16.3.jar, DungeonsArise-1.16.5-2.1.49-beta.jar
-[12Jun2025 03:22:12.263] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_helmet
+[12Jun2025 19:13:33.470] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fusion] Starting version check at https://raw.githubusercontent.com/Sinhika/Fusion/1.16/update.json
+[12Jun2025 19:13:33.555] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fusion] Found status: AHEAD Current: 1.16.5-2.7.4.5 Target: null
+[12Jun2025 19:13:33.569] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Jun2025 19:13:33.621] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: CustomNPC Permissions available:
+[12Jun2025 19:13:33.630] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.blocks
+[12Jun2025 19:13:33.632] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.villager
+[12Jun2025 19:13:33.632] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.bank
+[12Jun2025 19:13:33.633] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.dialog
+[12Jun2025 19:13:33.633] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.faction
+[12Jun2025 19:13:33.634] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.linked
+[12Jun2025 19:13:33.634] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.naturalspawn
+[12Jun2025 19:13:33.634] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.playerdata
+[12Jun2025 19:13:33.635] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.quest
+[12Jun2025 19:13:33.635] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.recipe
+[12Jun2025 19:13:33.636] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.transport
+[12Jun2025 19:13:33.636] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.advanced
+[12Jun2025 19:13:33.636] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.ai
+[12Jun2025 19:13:33.637] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.clone
+[12Jun2025 19:13:33.637] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.create
+[12Jun2025 19:13:33.638] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.delete
+[12Jun2025 19:13:33.638] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.display
+[12Jun2025 19:13:33.638] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.freeze
+[12Jun2025 19:13:33.639] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.gui
+[12Jun2025 19:13:33.639] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.inventory
+[12Jun2025 19:13:33.640] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.reset
+[12Jun2025 19:13:33.640] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.stats
+[12Jun2025 19:13:33.641] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.scenes
+[12Jun2025 19:13:33.641] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.soulstone.all
+[12Jun2025 19:13:33.641] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.create
+[12Jun2025 19:13:33.642] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.mob
+[12Jun2025 19:13:33.642] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.mounter
+[12Jun2025 19:13:33.642] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.nbtbook
+[12Jun2025 19:13:33.642] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.pather
+[12Jun2025 19:13:33.642] [modloading-worker-0/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.scripter
+[12Jun2025 19:13:33.828] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
+[12Jun2025 19:13:35.525] [modloading-worker-1/INFO] [Waila/]: Registered plugin at snownee.jade.JadePlugin
+[12Jun2025 19:13:35.528] [modloading-worker-1/INFO] [Waila/]: Registered plugin at snownee.jade.JadeClientPlugin
+[12Jun2025 19:13:35.535] [modloading-worker-1/INFO] [Waila/]: Registered plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[12Jun2025 19:13:35.540] [modloading-worker-1/INFO] [Waila/]: Registered plugin at ovh.corail.tombstone.compatibility.IntegrationWaila
+[12Jun2025 19:13:44.584] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12Jun2025 19:13:45.964] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [noppes, mark, clear] and [noppes, mark, entities] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12Jun2025 19:13:45.966] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [noppes, mark, entities] and [noppes, mark, clear] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12Jun2025 19:13:45.976] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12Jun2025 19:13:45.980] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12Jun2025 19:13:45.987] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12Jun2025 19:13:45.989] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12Jun2025 19:13:45.998] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12Jun2025 19:13:46.052] [main/INFO] [ejektaflex.bountiful.BountifulMod/]: Bountiful adding resource listener..
+[12Jun2025 19:13:46.056] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.42-universal.jar, mowziesmobs-1.5.27.jar, supermartijn642configlib-1.1.8-forge-mc1.16.jar, sophisticatedbackpacks-1.16.5-3.15.16.669.jar, Jade-1.16.4-2.8.3.jar, architectury-1.32.68.jar, minecraft-comes-alive-7.3.23+1.16.5-universal.jar, SimpleCoreLib-1.16.5-2.0.8.22.jar, Chunky-1.2.123.jar, supermartijn642corelib-1.1.17a-forge-mc1.16.jar, Fusion-1.16.5-2.7.4.5.jar, jei-1.16.5-7.8.0.1009.jar, goblintraders-1.7.3-1.16.5.jar, Bountiful-1.16.4-3.3.1.jar, curios-forge-1.16.5-4.1.0.0.jar, geckolib-forge-1.16.5-3.0.104.jar, EpicFight-16.6.4.jar, CyclopsCore-1.16.5-1.13.0.jar, EvilCraft-1.16.5-1.1.17.jar, configured-1.5.4-1.16.5.jar, tombstone-1.16.5-6.9.6.jar, obfuscate-0.6.3-1.16.5.jar, vehicle-mod-0.45.2-1.16.3.jar, CustomNPCs-1.16.5.20220515.jar, cfm-7.0.0pre22-1.16.3.jar, DungeonsArise-1.16.5-2.1.49-beta.jar
+[12Jun2025 19:13:51.567] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_helmet
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_helmet'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -283,7 +283,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_helmet'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.288] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/medium_thyrium_chunk
+[12Jun2025 19:13:51.585] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/medium_thyrium_chunk
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/mythril'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge:?]
@@ -332,7 +332,7 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/mythril'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.297] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_axe
+[12Jun2025 19:13:51.589] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_axe
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_axe'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -381,7 +381,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_axe'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.306] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_sword
+[12Jun2025 19:13:51.597] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_sword
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_sword'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -430,7 +430,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_sword'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.313] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_hoe
+[12Jun2025 19:13:51.598] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_hoe
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_hoe'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -479,7 +479,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_hoe'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.381] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_boots
+[12Jun2025 19:13:51.633] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_boots
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_boots'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -528,7 +528,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_boots'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.389] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_pickaxe
+[12Jun2025 19:13:51.641] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_pickaxe
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_pickaxe'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -577,7 +577,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_pickaxe'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.399] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_bow
+[12Jun2025 19:13:51.645] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_bow
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_bow'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -626,7 +626,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_bow'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.424] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cfm:craft_sofa
+[12Jun2025 19:13:51.651] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe cfm:craft_sofa
 com.google.gson.JsonSyntaxException: Invalid vehicle entity: vehicle:sofa
 	at com.mrcrayfish.vehicle.crafting.VehicleRecipeSerializer.read(VehicleRecipeSerializer.java:48) ~[vehicle:0.45.2-1.16.3]
 	at com.mrcrayfish.vehicle.crafting.VehicleRecipeSerializer.func_199425_a_(VehicleRecipeSerializer.java:23) ~[vehicle:0.45.2-1.16.3]
@@ -669,7 +669,7 @@ com.google.gson.JsonSyntaxException: Invalid vehicle entity: vehicle:sofa
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.444] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:steep_boost_ramp
+[12Jun2025 19:13:51.660] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:steep_boost_ramp
 com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -720,7 +720,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.479] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_helmet
+[12Jun2025 19:13:51.672] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_helmet
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_helmet'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -769,7 +769,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_helmet'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.520] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_boots
+[12Jun2025 19:13:51.698] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_boots
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_boots'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -818,7 +818,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_boots'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.529] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_leggings
+[12Jun2025 19:13:51.703] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_leggings
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_leggings'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -867,7 +867,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_leggings'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.537] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_shovel
+[12Jun2025 19:13:51.712] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_shovel
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_shovel'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -916,7 +916,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_shovel'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.548] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_chestplate
+[12Jun2025 19:13:51.718] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_chestplate
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_chestplate'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -965,7 +965,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_chestpl
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.554] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_shovel
+[12Jun2025 19:13:51.727] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_shovel
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_shovel'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1014,7 +1014,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_shovel'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.566] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_shears
+[12Jun2025 19:13:51.744] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_shears
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_shears'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1063,7 +1063,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_shears'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.577] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_sword
+[12Jun2025 19:13:51.754] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_sword
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_sword'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1112,7 +1112,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_sword'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.583] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_axe
+[12Jun2025 19:13:51.759] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_axe
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_axe'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1161,7 +1161,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_axe'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.596] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/medium_bronze_chunk
+[12Jun2025 19:13:51.768] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/medium_bronze_chunk
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge:?]
@@ -1210,7 +1210,7 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.603] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_shovel
+[12Jun2025 19:13:51.772] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_shovel
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_shovel'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1259,7 +1259,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_shovel'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.627] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_rod
+[12Jun2025 19:13:51.797] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_rod
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_rod'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1308,7 +1308,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_rod'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.631] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_leggings
+[12Jun2025 19:13:51.806] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_leggings
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_leggings'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1357,7 +1357,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_leggings'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.638] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_pickaxe
+[12Jun2025 19:13:51.811] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_pickaxe
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_pickaxe'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1406,7 +1406,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_pickaxe
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:12.643] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_chestplate
+[12Jun2025 19:13:52.017] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_chestplate
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_chestplate'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1455,7 +1455,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_chestplate
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.467] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/thyrium_nugget
+[12Jun2025 19:13:52.036] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/thyrium_nugget
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/mythril'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge:?]
@@ -1504,7 +1504,7 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/mythril'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.489] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/medium_sinisite_chunk
+[12Jun2025 19:13:52.065] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/medium_sinisite_chunk
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/mythril'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge:?]
@@ -1553,7 +1553,7 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/mythril'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.523] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_sword
+[12Jun2025 19:13:52.073] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_sword
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_sword'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1602,7 +1602,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_sword'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.541] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_chestplate
+[12Jun2025 19:13:52.081] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_chestplate
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_chestplate'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1651,7 +1651,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_chestplate'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.549] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_shears
+[12Jun2025 19:13:52.086] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_shears
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_shears'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1700,7 +1700,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_shears'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.567] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/large_thyrium_chunk
+[12Jun2025 19:13:52.095] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/large_thyrium_chunk
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/mythril'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge:?]
@@ -1749,7 +1749,7 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/mythril'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.578] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_shovel
+[12Jun2025 19:13:52.097] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_shovel
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_shovel'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1798,7 +1798,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_shovel'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.609] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_sword
+[12Jun2025 19:13:52.109] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_sword
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_sword'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1847,7 +1847,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_sword'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.614] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_helmet
+[12Jun2025 19:13:52.114] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_helmet
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_helmet'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1896,7 +1896,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_helmet'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.618] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/large_sinisite_chunk
+[12Jun2025 19:13:52.116] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/large_sinisite_chunk
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/mythril'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge:?]
@@ -1945,7 +1945,7 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/mythril'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.622] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_shears
+[12Jun2025 19:13:52.120] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_shears
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_shears'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -1994,7 +1994,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_shears'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.624] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:sinisite_bow
+[12Jun2025 19:13:52.124] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:sinisite_bow
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:gems/onyx'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge:?]
@@ -2043,7 +2043,7 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:gems/onyx'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.627] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:boost_ramp
+[12Jun2025 19:13:52.127] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:boost_ramp
 com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2094,7 +2094,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.629] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_boots
+[12Jun2025 19:13:52.131] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_boots
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_boots'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2143,7 +2143,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_boots'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.633] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_hoe
+[12Jun2025 19:13:52.135] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_hoe
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_hoe'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2192,9 +2192,9 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_hoe'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.635] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe fusion:fusion_furnace/recycle_onyx_items2 as it's serializer returned null
-[12Jun2025 03:22:13.636] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe fusion:fusion_furnace/recycle_onyx_items1 as it's serializer returned null
-[12Jun2025 03:22:13.636] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_axe
+[12Jun2025 19:13:52.140] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe fusion:fusion_furnace/recycle_onyx_items2 as it's serializer returned null
+[12Jun2025 19:13:52.141] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe fusion:fusion_furnace/recycle_onyx_items1 as it's serializer returned null
+[12Jun2025 19:13:52.142] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_axe
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_axe'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2243,7 +2243,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_axe'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.638] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_pickaxe
+[12Jun2025 19:13:52.144] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_pickaxe
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_pickaxe'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2292,7 +2292,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_pickaxe'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.641] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_leggings
+[12Jun2025 19:13:52.146] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_leggings
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_leggings'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2341,7 +2341,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_leggings'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.644] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_axe
+[12Jun2025 19:13:52.325] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_axe
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_axe'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2390,7 +2390,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_axe'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.649] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_helmet
+[12Jun2025 19:13:52.332] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_helmet
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_helmet'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2439,7 +2439,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_helmet'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.651] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/large_bronze_chunk
+[12Jun2025 19:13:52.335] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/large_bronze_chunk
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge:?]
@@ -2488,7 +2488,7 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.667] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_hoe
+[12Jun2025 19:13:52.346] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_hoe
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_hoe'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2537,7 +2537,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_hoe'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.670] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_pickaxe
+[12Jun2025 19:13:52.353] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_pickaxe
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_pickaxe'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2586,7 +2586,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_pickaxe'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.673] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_bucket
+[12Jun2025 19:13:52.355] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_bucket
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_bucket'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2635,7 +2635,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_bucket'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.989] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/bronze_nugget
+[12Jun2025 19:13:52.364] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/bronze_nugget
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge:?]
@@ -2684,7 +2684,7 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/copper'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:13.995] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_leggings
+[12Jun2025 19:13:52.371] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_adamantium_leggings
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_leggings'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2733,7 +2733,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:adamantium_legging
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:14.015] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_shears
+[12Jun2025 19:13:52.382] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_tin_shears
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_shears'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2782,7 +2782,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:tin_shears'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:14.023] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_boots
+[12Jun2025 19:13:52.389] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_mythril_boots
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_boots'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2831,7 +2831,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:mythril_boots'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:14.031] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/sinisite_nugget
+[12Jun2025 19:13:52.397] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/sinisite_nugget
 com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/mythril'
 	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
 	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge:?]
@@ -2880,7 +2880,7 @@ com.google.gson.JsonSyntaxException: Unknown item tag 'forge:ingots/mythril'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:14.061] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_chestplate
+[12Jun2025 19:13:52.408] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_chestplate
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_chestplate'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2929,7 +2929,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_chestplate'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:14.064] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_hoe
+[12Jun2025 19:13:52.423] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe fusion:fusion_furnace/recycle_copper_hoe
 com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_hoe'
 	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -2978,7 +2978,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'simpleores:copper_hoe'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:14.078] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:boost_pad
+[12Jun2025 19:13:52.433] [Worker-Main-2/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe vehicle:boost_pad
 com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at net.minecraft.item.crafting.ShapedRecipe.func_222129_c(ShapedRecipe.java:262) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:408) ~[?:?]
@@ -3024,8 +3024,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:14.088] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 15 recipes
-[12Jun2025 03:22:15.155] [Worker-Main-2/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table bountiful:blocks/bountyboard
+[12Jun2025 19:13:52.454] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 15 recipes
+[12Jun2025 19:13:53.457] [Worker-Main-2/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table bountiful:blocks/bountyboard
 com.google.gson.JsonSyntaxException: Missing ops, expected to find a JsonArray
 	at net.minecraft.util.JSONUtils.func_151214_t(SourceFile:425) ~[?:?]
 	at net.minecraft.loot.functions.CopyNbt$Serializer.func_186530_b(SourceFile:245) ~[?:?]
@@ -3119,176 +3119,182 @@ com.google.gson.JsonSyntaxException: Missing ops, expected to find a JsonArray
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
-[12Jun2025 03:22:16.139] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1789 advancements
-[12Jun2025 03:22:16.476] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading Bounty Data. We will probably skip some data since certain mods are not loaded.
-[12Jun2025 03:22:16.519] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/simplytea/chef_objs as dependencies are not met: [simplytea]
-[12Jun2025 03:22:16.526] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/upgrade_aquatic/fisherman_rews as dependencies are not met: [upgrade_aquatic]
-[12Jun2025 03:22:16.536] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/inspirations/farmer_rews as dependencies are not met: [inspirations]
-[12Jun2025 03:22:16.547] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/vanillafoodpantry/chef_objs as dependencies are not met: [vanillafoodpantry]
-[12Jun2025 03:22:16.554] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/upgrade_aquatic/fisherman_objs as dependencies are not met: [upgrade_aquatic]
-[12Jun2025 03:22:16.559] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/apotheosis/fletcher_rews as dependencies are not met: [apotheosis]
-[12Jun2025 03:22:16.569] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/aquaculture/fisherman_rews as dependencies are not met: [aquaculture]
-[12Jun2025 03:22:16.570] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/mysticalworld/armorer_rews as dependencies are not met: [mysticalworld]
-[12Jun2025 03:22:16.574] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/comforts/shepherd_objs as dependencies are not met: [comforts]
-[12Jun2025 03:22:16.575] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/charm/tinker_objs as dependencies are not met: [charm]
-[12Jun2025 03:22:16.579] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/mysticalworld/armorer_objs as dependencies are not met: [mysticalworld]
-[12Jun2025 03:22:16.585] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/aquaculture/fisherman_objs as dependencies are not met: [aquaculture]
-[12Jun2025 03:22:16.585] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/simplefarming/chef_objs as dependencies are not met: [simplefarming]
-[12Jun2025 03:22:16.586] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/quark/tinker_rews as dependencies are not met: [quark]
-[12Jun2025 03:22:16.589] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/upgrademodifiers/armorer_rews as dependencies are not met: [upgrademodifiers]
-[12Jun2025 03:22:16.593] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/charm/tinker_rews as dependencies are not met: [charm]
-[12Jun2025 03:22:16.598] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/naturescompass/toolsmith_rews as dependencies are not met: [naturescompass]
-[12Jun2025 03:22:16.598] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/storagedrawers/tinker_rews as dependencies are not met: [storagedrawers]
-[12Jun2025 03:22:16.601] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/quark/toolsmith_rews as dependencies are not met: [quark]
-[12Jun2025 03:22:16.610] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/quark/farmer_objs as dependencies are not met: [quark]
-[12Jun2025 03:22:16.611] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/inspirations/tinker_rews as dependencies are not met: [inspirations]
-[12Jun2025 03:22:16.616] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/farmingforblockheads/farmer_objs as dependencies are not met: [farmingforblockheads]
-[12Jun2025 03:22:16.618] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/upgrademodifiers/toolsmith_rews as dependencies are not met: [upgrademodifiers]
-[12Jun2025 03:22:16.623] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/mysticalworld/chef_objs as dependencies are not met: [mysticalworld]
-[12Jun2025 03:22:16.624] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/vanillafoodpantry/chef_rews as dependencies are not met: [vanillafoodpantry]
-[12Jun2025 03:22:16.628] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/inspirations/fletcher_rews as dependencies are not met: [inspirations]
-[12Jun2025 03:22:16.628] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/aquaculture/tinker_rews as dependencies are not met: [aquaculture]
-[12Jun2025 03:22:16.631] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/farmingforblockheads/farmer_rews as dependencies are not met: [farmingforblockheads]
-[12Jun2025 03:22:16.631] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/xlfoodmod/chef_objs as dependencies are not met: [xlfoodmod]
-[12Jun2025 03:22:16.639] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/mysticalworld/farmer_objs as dependencies are not met: [mysticalworld]
-[12Jun2025 03:22:16.644] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/simplefarming/farmer_objs as dependencies are not met: [simplefarming]
-[12Jun2025 03:22:16.644] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/quark/fletcher_objs as dependencies are not met: [quark]
-[12Jun2025 03:22:16.645] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/xlfoodmod/chef_rews as dependencies are not met: [xlfoodmod]
-[12Jun2025 03:22:16.648] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/simplefarming/farmer_rews as dependencies are not met: [simplefarming]
-[12Jun2025 03:22:16.649] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Found decrees: [hunting, butcher, mason, librarian, farmer, toolsmith, chef, mapper, armorer, fletcher, fisherman, cleric, leatherer, shepherd, tinker]
-[12Jun2025 03:22:16.649] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Merging Entry Pools..
-[12Jun2025 03:22:16.650] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating Entry Pools..
-[12Jun2025 03:22:16.650] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'toolsmith_objs'
-[12Jun2025 03:22:16.654] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'butcher_rews'
-[12Jun2025 03:22:16.654] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'tinker_objs'
-[12Jun2025 03:22:16.655] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'common_enchants'
-[12Jun2025 03:22:16.655] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'shepherd_objs'
-[12Jun2025 03:22:16.656] [Worker-Main-2/WARN] [ejektaflex.bountiful.BountifulMod/]: Invalid pool item: BountyEntry (item-tag) [Item: minecraft:wool, Amount: 0 [[4..32]], Worth: 250, NBT: null, Weight: 1000]
-[12Jun2025 03:22:16.658] [Worker-Main-2/WARN] [ejektaflex.bountiful.BountifulMod/]: Invalid pool item: BountyEntry (item-tag) [Item: forge:dyes, Amount: 0 [[2..16]], Worth: 200, NBT: null, Weight: 1000]
-[12Jun2025 03:22:16.658] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'chef_objs'
-[12Jun2025 03:22:16.660] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'toolsmith_rews'
-[12Jun2025 03:22:16.661] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'fisherman_objs'
-[12Jun2025 03:22:16.662] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'leatherer_rews'
-[12Jun2025 03:22:16.663] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'farmer_rews'
-[12Jun2025 03:22:16.663] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'cleric_objs'
-[12Jun2025 03:22:16.663] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'shepherd_rews'
-[12Jun2025 03:22:16.664] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'farmer_objs'
-[12Jun2025 03:22:16.664] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'butcher_objs'
-[12Jun2025 03:22:16.664] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'librarian_objs'
-[12Jun2025 03:22:16.666] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'common_crafts'
-[12Jun2025 03:22:16.667] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'librarian_rews'
-[12Jun2025 03:22:16.667] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'armorer_objs'
-[12Jun2025 03:22:16.667] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'mason_objs'
-[12Jun2025 03:22:16.667] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'hunting_objs'
-[12Jun2025 03:22:16.668] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'hunting_rews'
-[12Jun2025 03:22:16.668] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'all_villager_objs'
-[12Jun2025 03:22:16.668] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'armorer_rews'
-[12Jun2025 03:22:16.668] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'cleric_rews'
-[12Jun2025 03:22:16.669] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'all_villager_rews'
-[12Jun2025 03:22:16.669] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'chef_rews'
-[12Jun2025 03:22:16.670] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'fletcher_objs'
-[12Jun2025 03:22:16.670] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'mapper_rews'
-[12Jun2025 03:22:16.670] [Worker-Main-2/WARN] [ejektaflex.bountiful.BountifulMod/]: Invalid pool item: BountyEntry (item-tag) [Item: minecraft:banners, Amount: 0 [[1..3]], Worth: 750, NBT: null, Weight: 400]
-[12Jun2025 03:22:16.672] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'tinker_rews'
-[12Jun2025 03:22:16.672] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'fisherman_rews'
-[12Jun2025 03:22:16.673] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'leatherer_objs'
-[12Jun2025 03:22:16.673] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'fletcher_rews'
-[12Jun2025 03:22:16.673] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'mapper_objs'
-[12Jun2025 03:22:16.673] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'mason_rews'
-[12Jun2025 03:22:16.673] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Found Entry Pools: [hunting, butcher, mason, librarian, farmer, toolsmith, chef, mapper, armorer, fletcher, fisherman, cleric, leatherer, shepherd, tinker]
-[12Jun2025 03:22:21.106] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
-[12Jun2025 03:22:21.107] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
-[12Jun2025 03:22:26.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[12Jun2025 03:22:26.319] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[12Jun2025 03:22:26.320] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[12Jun2025 03:22:26.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[12Jun2025 03:22:26.862] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 100.107.133.48:25565
-[12Jun2025 03:22:26.905] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[12Jun2025 03:22:27.138] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12Jun2025 03:22:27.138] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[12Jun2025 03:22:27.138] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12Jun2025 03:22:27.140] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[12Jun2025 03:22:27.258] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Registering Bounty Board Jigsaw Piece for Village Type: plains
-[12Jun2025 03:22:27.262] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
-[12Jun2025 03:22:27.264] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
-[12Jun2025 03:22:27.265] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
-[12Jun2025 03:22:27.265] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Registering Bounty Board Jigsaw Piece for Village Type: desert
-[12Jun2025 03:22:27.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[12Jun2025 03:22:28.443] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[12Jun2025 03:22:28.446] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[12Jun2025 03:22:28.447] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[12Jun2025 03:22:28.448] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[12Jun2025 03:22:28.451] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[12Jun2025 03:22:28.452] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[12Jun2025 03:22:28.453] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[12Jun2025 03:22:28.453] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[12Jun2025 03:22:28.455] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[12Jun2025 03:22:28.648] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.649] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.651] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.652] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.652] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.653] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.656] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.658] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[12Jun2025 03:22:28.659] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.659] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.660] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.662] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.665] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.665] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.665] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.666] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.669] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.670] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.672] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[12Jun2025 03:22:28.672] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.673] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.676] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[12Jun2025 03:22:28.677] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.678] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[12Jun2025 03:22:28.678] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
-[12Jun2025 03:22:28.678] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.680] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.681] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.681] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.682] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.682] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.683] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.683] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.684] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.686] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:28.687] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
-[12Jun2025 03:22:29.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[12Jun2025 03:22:31.902] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12Jun2025 03:22:31.906] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12Jun2025 03:22:31.907] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12Jun2025 03:22:31.907] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12Jun2025 03:22:31.908] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12Jun2025 03:22:31.909] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12Jun2025 03:22:32.289] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[12Jun2025 03:22:32.900] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3656 ms
-[12Jun2025 03:22:32.903] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.734s)! For help, type "help"
-[12Jun2025 03:22:33.328] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@6ff02128
-[12Jun2025 03:22:33.393] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[12Jun2025 03:22:33.434] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
-[12Jun2025 03:22:33.514] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
-[12Jun2025 03:22:33.516] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
-[12Jun2025 03:22:33.518] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
-[12Jun2025 03:22:33.585] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.baubles due to unsatisfied mod condition.
-[12Jun2025 03:22:33.586] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.blood_magic due to unsatisfied mod condition.
-[12Jun2025 03:22:33.588] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.ee3 due to unsatisfied mod condition.
-[12Jun2025 03:22:33.588] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.enderio due to unsatisfied mod condition.
-[12Jun2025 03:22:33.589] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.forestry due to unsatisfied mod condition.
-[12Jun2025 03:22:33.590] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.ic2 due to unsatisfied mod condition.
-[12Jun2025 03:22:33.592] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.immersiveengineering due to unsatisfied mod condition.
-[12Jun2025 03:22:33.592] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.thaumcraft due to unsatisfied mod condition.
-[12Jun2025 03:22:33.594] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.thermal_expansion due to unsatisfied mod condition.
-[12Jun2025 03:22:33.594] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.tinkers_construct due to unsatisfied mod condition.
-[12Jun2025 03:23:53.767] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Server] hola mundo
-[12Jun2025 03:26:10.739] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1a0f1b58
-[12Jun2025 03:26:10.771] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Se4norComediante[/100.119.9.72:54254] logged in with entity id 413 at (805.5, 68.0, 995.5)
-[12Jun2025 03:26:10.849] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante joined the game
-[12Jun2025 03:26:11.173] [Server thread/INFO] [Waila/]: Syncing config to Se4norComediante (3fff8650-d897-3866-9c95-e06e18153e8f)
-[12Jun2025 03:26:20.855] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Se4norComediante lost connection: Disconnected
-[12Jun2025 03:26:20.855] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Se4norComediante left the game
+[12Jun2025 19:13:54.476] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1789 advancements
+[12Jun2025 19:13:54.810] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading Bounty Data. We will probably skip some data since certain mods are not loaded.
+[12Jun2025 19:13:54.849] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/simplytea/chef_objs as dependencies are not met: [simplytea]
+[12Jun2025 19:13:54.857] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/upgrade_aquatic/fisherman_rews as dependencies are not met: [upgrade_aquatic]
+[12Jun2025 19:13:54.863] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/inspirations/farmer_rews as dependencies are not met: [inspirations]
+[12Jun2025 19:13:54.874] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/vanillafoodpantry/chef_objs as dependencies are not met: [vanillafoodpantry]
+[12Jun2025 19:13:54.879] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/upgrade_aquatic/fisherman_objs as dependencies are not met: [upgrade_aquatic]
+[12Jun2025 19:13:54.881] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/apotheosis/fletcher_rews as dependencies are not met: [apotheosis]
+[12Jun2025 19:13:54.889] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/aquaculture/fisherman_rews as dependencies are not met: [aquaculture]
+[12Jun2025 19:13:54.891] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/mysticalworld/armorer_rews as dependencies are not met: [mysticalworld]
+[12Jun2025 19:13:54.894] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/comforts/shepherd_objs as dependencies are not met: [comforts]
+[12Jun2025 19:13:54.898] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/charm/tinker_objs as dependencies are not met: [charm]
+[12Jun2025 19:13:54.898] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/mysticalworld/armorer_objs as dependencies are not met: [mysticalworld]
+[12Jun2025 19:13:54.908] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/aquaculture/fisherman_objs as dependencies are not met: [aquaculture]
+[12Jun2025 19:13:54.910] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/simplefarming/chef_objs as dependencies are not met: [simplefarming]
+[12Jun2025 19:13:54.913] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/quark/tinker_rews as dependencies are not met: [quark]
+[12Jun2025 19:13:54.913] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/upgrademodifiers/armorer_rews as dependencies are not met: [upgrademodifiers]
+[12Jun2025 19:13:54.921] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/charm/tinker_rews as dependencies are not met: [charm]
+[12Jun2025 19:13:54.922] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/naturescompass/toolsmith_rews as dependencies are not met: [naturescompass]
+[12Jun2025 19:13:54.926] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/storagedrawers/tinker_rews as dependencies are not met: [storagedrawers]
+[12Jun2025 19:13:54.927] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/quark/toolsmith_rews as dependencies are not met: [quark]
+[12Jun2025 19:13:54.939] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/quark/farmer_objs as dependencies are not met: [quark]
+[12Jun2025 19:13:54.942] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/inspirations/tinker_rews as dependencies are not met: [inspirations]
+[12Jun2025 19:13:54.943] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/farmingforblockheads/farmer_objs as dependencies are not met: [farmingforblockheads]
+[12Jun2025 19:13:54.947] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/upgrademodifiers/toolsmith_rews as dependencies are not met: [upgrademodifiers]
+[12Jun2025 19:13:54.948] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/mysticalworld/chef_objs as dependencies are not met: [mysticalworld]
+[12Jun2025 19:13:54.950] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/vanillafoodpantry/chef_rews as dependencies are not met: [vanillafoodpantry]
+[12Jun2025 19:13:54.953] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/inspirations/fletcher_rews as dependencies are not met: [inspirations]
+[12Jun2025 19:13:54.954] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/aquaculture/tinker_rews as dependencies are not met: [aquaculture]
+[12Jun2025 19:13:54.955] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/farmingforblockheads/farmer_rews as dependencies are not met: [farmingforblockheads]
+[12Jun2025 19:13:54.956] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/xlfoodmod/chef_objs as dependencies are not met: [xlfoodmod]
+[12Jun2025 19:13:54.962] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/mysticalworld/farmer_objs as dependencies are not met: [mysticalworld]
+[12Jun2025 19:13:54.965] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/simplefarming/farmer_objs as dependencies are not met: [simplefarming]
+[12Jun2025 19:13:54.966] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/quark/fletcher_objs as dependencies are not met: [quark]
+[12Jun2025 19:13:54.968] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/xlfoodmod/chef_rews as dependencies are not met: [xlfoodmod]
+[12Jun2025 19:13:54.969] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Skipping load of bountiful:pools/simplefarming/farmer_rews as dependencies are not met: [simplefarming]
+[12Jun2025 19:13:54.970] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Found decrees: [hunting, butcher, mason, librarian, farmer, toolsmith, chef, mapper, armorer, fletcher, fisherman, cleric, leatherer, shepherd, tinker]
+[12Jun2025 19:13:54.972] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Merging Entry Pools..
+[12Jun2025 19:13:54.972] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating Entry Pools..
+[12Jun2025 19:13:54.973] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'toolsmith_objs'
+[12Jun2025 19:13:54.974] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'butcher_rews'
+[12Jun2025 19:13:54.975] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'tinker_objs'
+[12Jun2025 19:13:54.976] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'common_enchants'
+[12Jun2025 19:13:54.977] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'shepherd_objs'
+[12Jun2025 19:13:54.980] [Worker-Main-2/WARN] [ejektaflex.bountiful.BountifulMod/]: Invalid pool item: BountyEntry (item-tag) [Item: minecraft:wool, Amount: 0 [[4..32]], Worth: 250, NBT: null, Weight: 1000]
+[12Jun2025 19:13:54.987] [Worker-Main-2/WARN] [ejektaflex.bountiful.BountifulMod/]: Invalid pool item: BountyEntry (item-tag) [Item: forge:dyes, Amount: 0 [[2..16]], Worth: 200, NBT: null, Weight: 1000]
+[12Jun2025 19:13:54.987] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'chef_objs'
+[12Jun2025 19:13:54.988] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'toolsmith_rews'
+[12Jun2025 19:13:54.988] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'fisherman_objs'
+[12Jun2025 19:13:54.988] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'leatherer_rews'
+[12Jun2025 19:13:54.988] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'farmer_rews'
+[12Jun2025 19:13:54.988] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'cleric_objs'
+[12Jun2025 19:13:54.990] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'shepherd_rews'
+[12Jun2025 19:13:54.991] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'farmer_objs'
+[12Jun2025 19:13:54.991] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'butcher_objs'
+[12Jun2025 19:13:54.991] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'librarian_objs'
+[12Jun2025 19:13:54.991] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'common_crafts'
+[12Jun2025 19:13:54.991] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'librarian_rews'
+[12Jun2025 19:13:54.991] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'armorer_objs'
+[12Jun2025 19:13:54.992] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'mason_objs'
+[12Jun2025 19:13:54.992] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'hunting_objs'
+[12Jun2025 19:13:54.992] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'hunting_rews'
+[12Jun2025 19:13:54.993] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'all_villager_objs'
+[12Jun2025 19:13:54.994] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'armorer_rews'
+[12Jun2025 19:13:54.996] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'cleric_rews'
+[12Jun2025 19:13:54.996] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'all_villager_rews'
+[12Jun2025 19:13:54.996] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'chef_rews'
+[12Jun2025 19:13:54.996] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'fletcher_objs'
+[12Jun2025 19:13:54.996] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'mapper_rews'
+[12Jun2025 19:13:54.996] [Worker-Main-2/WARN] [ejektaflex.bountiful.BountifulMod/]: Invalid pool item: BountyEntry (item-tag) [Item: minecraft:banners, Amount: 0 [[1..3]], Worth: 750, NBT: null, Weight: 400]
+[12Jun2025 19:13:54.996] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'tinker_rews'
+[12Jun2025 19:13:54.997] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'fisherman_rews'
+[12Jun2025 19:13:54.997] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'leatherer_objs'
+[12Jun2025 19:13:54.997] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'fletcher_rews'
+[12Jun2025 19:13:54.997] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'mapper_objs'
+[12Jun2025 19:13:54.997] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Validating pool 'mason_rews'
+[12Jun2025 19:13:54.997] [Worker-Main-2/INFO] [ejektaflex.bountiful.BountifulMod/]: Found Entry Pools: [hunting, butcher, mason, librarian, farmer, toolsmith, chef, mapper, armorer, fletcher, fisherman, cleric, leatherer, shepherd, tinker]
+[12Jun2025 19:13:59.611] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[12Jun2025 19:13:59.612] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[12Jun2025 19:14:05.002] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[12Jun2025 19:14:05.003] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Jun2025 19:14:05.005] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Jun2025 19:14:05.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Jun2025 19:14:05.340] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 100.107.133.48:25565
+[12Jun2025 19:14:05.386] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[12Jun2025 19:14:05.581] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Jun2025 19:14:05.583] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Jun2025 19:14:05.584] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Jun2025 19:14:05.586] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12Jun2025 19:14:05.712] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[12Jun2025 19:14:05.716] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[12Jun2025 19:14:05.717] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[12Jun2025 19:14:05.718] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[12Jun2025 19:14:05.722] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[12Jun2025 19:14:06.381] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12Jun2025 19:14:07.079] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[12Jun2025 19:14:07.082] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[12Jun2025 19:14:07.082] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[12Jun2025 19:14:07.082] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[12Jun2025 19:14:07.083] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[12Jun2025 19:14:07.083] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[12Jun2025 19:14:07.085] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[12Jun2025 19:14:07.086] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[12Jun2025 19:14:07.086] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class net.minecraft.entity.boss.WitherEntity from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[12Jun2025 19:14:07.191] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.193] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.194] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.195] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.196] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.197] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.198] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.202] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[12Jun2025 19:14:07.204] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.204] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.207] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.209] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.210] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.211] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.212] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.215] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.219] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.221] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.222] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[12Jun2025 19:14:07.223] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.226] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.227] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[12Jun2025 19:14:07.229] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.229] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[12Jun2025 19:14:07.230] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[12Jun2025 19:14:07.231] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.233] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.234] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.235] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.237] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.240] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.242] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.242] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.242] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.243] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.245] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[12Jun2025 19:14:07.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Jun2025 19:14:10.247] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[12Jun2025 19:14:10.249] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[12Jun2025 19:14:10.250] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[12Jun2025 19:14:10.251] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[12Jun2025 19:14:10.252] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[12Jun2025 19:14:10.478] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[12Jun2025 19:14:10.993] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[12Jun2025 19:14:11.505] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3530 ms
+[12Jun2025 19:14:11.506] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.876s)! For help, type "help"
+[12Jun2025 19:14:11.839] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5b03fbca
+[12Jun2025 19:14:11.910] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[12Jun2025 19:14:11.983] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[12Jun2025 19:14:12.090] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[12Jun2025 19:14:12.093] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[12Jun2025 19:14:12.093] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[12Jun2025 19:14:12.134] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.baubles due to unsatisfied mod condition.
+[12Jun2025 19:14:12.134] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.blood_magic due to unsatisfied mod condition.
+[12Jun2025 19:14:12.137] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.ee3 due to unsatisfied mod condition.
+[12Jun2025 19:14:12.138] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.enderio due to unsatisfied mod condition.
+[12Jun2025 19:14:12.138] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.forestry due to unsatisfied mod condition.
+[12Jun2025 19:14:12.139] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.ic2 due to unsatisfied mod condition.
+[12Jun2025 19:14:12.140] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.immersiveengineering due to unsatisfied mod condition.
+[12Jun2025 19:14:12.143] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.thaumcraft due to unsatisfied mod condition.
+[12Jun2025 19:14:12.143] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.thermal_expansion due to unsatisfied mod condition.
+[12Jun2025 19:14:12.143] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.tinkers_construct due to unsatisfied mod condition.
+[12Jun2025 19:14:49.585] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[12Jun2025 19:14:49.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Jun2025 19:14:49.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Jun2025 19:14:49.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Jun2025 19:14:49.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12Jun2025 19:14:51.966] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12Jun2025 19:14:51.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12Jun2025 19:14:51.971] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Jun2025 19:14:51.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12Jun2025 19:14:51.977] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Jun2025 19:14:52.065] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12Jun2025 19:14:52.097] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Jun2025 19:14:52.099] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
